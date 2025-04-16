@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #ffffff;
+  }
+  
+  .sidebar {
+    width: 300px;
+    background-color: #002f45;
+    color: white;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .profile {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .profile,
+  .h1muz{
+    color: white;
+  }
+  
+  .profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .profile h2 {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .profile p {
+    font-size: 14px;
+    color: #bbb;
+  }
+  
+  .section {
+    margin-bottom: 25px;
+  }
+  
+  .section h3 {
+    border-bottom: 1px solid #1f3b5c;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #0ab3ff;
+  }
+  
+  .section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .section ul li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+  
+  .interests span {
+    display: inline-block;
+    background: #1f3b5c;
+    padding: 6px 10px;
+    margin: 5px 5px 0 0;
+    border-radius: 15px;
+    font-size: 13px;
+  }
+  .profile {
+  text-indent: px;
+    color: #0ab3ff;
+
+  }
+
+  .right-section {
+    padding: 30px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .profile-section,
+  .experience-section {
+    margin-bottom: 30px;
+  }
+  
+  .profile-section h2,
+  .experience-section h2 {
+    color: #0ab3ff;
+    margin-bottom: 10px;
+  }
+  
+  .profile-section p,
+  .experience-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .experience-item {
+    margin-bottom: 20px;
+  }
+  
+  .experience-item span {
+    font-weight: bold;
+    color: #444;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .experience-item h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #0ab3ff;
+  }
+  
+  .experience-item h4 {
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
